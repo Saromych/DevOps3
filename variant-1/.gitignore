@@ -1,0 +1,9 @@
+# Environment variables
+.env
+
+# Docker volumes
+mysql_data/
+wordpress_data/
+
+# Screenshots (keep folder, ignore files if needed)
+# screenshots/*.png
