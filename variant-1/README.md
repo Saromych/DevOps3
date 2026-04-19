@@ -49,11 +49,13 @@ docker-compose ps
 ```
 
 # Ожидаемый вывод:
-#   Name                Command                  State                      Ports
-# -----------------------------------------------------------------------------------------------
-# wp-app     docker-entrypoint.sh apach ...   Up             0.0.0.0:8080->80/tcp
-# wp-mysql   docker-entrypoint.sh mysqld      Up (healthy)   3306/tcp, 33060/tcp
-# wp-redis   docker-entrypoint.sh redis ...   Up (healthy)   6379/tcp
+```bash
+   Name                Command                  State                      Ports
+ -----------------------------------------------------------------------------------------------
+ wp-app     docker-entrypoint.sh apach ...   Up             0.0.0.0:8080->80/tcp
+ wp-mysql   docker-entrypoint.sh mysqld      Up (healthy)   3306/tcp, 33060/tcp
+ wp-redis   docker-entrypoint.sh redis ...   Up (healthy)   6379/tcp
+```
 
 # 5. Доступ к WordPress
 # Откройте в браузере: http://localhost:8080
