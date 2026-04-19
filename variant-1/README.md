@@ -25,20 +25,28 @@
 
 ## Инструкция по запуску
 
-```bash
+
 # 1. Клонирование репозитория
+```bash
 git clone git@github.com:Saromych/DevOps3.git
 cd DevOps3/variant-1
+```
 
 # 2. Настройка переменных окружения
+```bash
 cp .env.example .env
+```
 # При необходимости отредактируйте .env (пароли уже заданы для примера)
 
 # 3. Запуск проекта
+```bash
 docker-compose up -d
+```
 
 # 4. Проверка статуса
+```bash
 docker-compose ps
+```
 
 # Ожидаемый вывод:
 #   Name                Command                  State                      Ports
@@ -51,6 +59,4 @@ docker-compose ps
 # Откройте в браузере: http://localhost:8080
 # Пройдите стандартную установку WordPress (выберите язык, создайте учётную запись)
 
-# 6. Настройка Redis (опционально)
-# - В админке WordPress: Plugins → Add New → Redis Object Cache → Install → Activate
-# - Settings → Redis → Enable Object Cache
+
